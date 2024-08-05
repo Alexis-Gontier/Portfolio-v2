@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function HeroRecherche({ isVisible, children }) {
     return (
       <>
@@ -12,4 +14,10 @@ export default function HeroRecherche({ isVisible, children }) {
           </div>
         ) : null}
       </>
-  )}
+  );
+}
+
+HeroRecherche.propTypes = {
+    isVisible: PropTypes.bool.isRequired,
+    children: PropTypes.node.isRequired,
+};
