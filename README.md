@@ -2,12 +2,7 @@
 
 Bienvenue sur mon portfolio ! Ce projet est développé en utilisant Vite.js, React et Tailwind CSS. Il présente mes compétences, projets et expériences professionnelles.
 
-# Mon Portfolio
-
-Bienvenue sur mon portfolio ! Ce projet est développé en utilisant Vite.js, React et Tailwind CSS. Il présente mes compétences, projets et expériences professionnelles.
-
 ![image](https://github.com/user-attachments/assets/e9168a14-35f3-4724-a69f-03c78b6aafdf)
-
 
 ## Table des matières
 
@@ -71,7 +66,6 @@ Ouvrez votre navigateur et accédez à `http://localhost:5173` pour voir le proj
 ## Lien
 
 Vous pouvez voir le portfolio en ligne à l'adresse suivante :
-
 [https://algont-ier.com/](https://algont-ier.com/)
 
 ## Contact
