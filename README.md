@@ -66,7 +66,7 @@ Ouvrez votre navigateur et accédez à `http://localhost:5173` pour voir le proj
 ## Lien
 
 Vous pouvez voir le portfolio en ligne à l'adresse suivante :
-[https://algont-ier.com/](https://algont-ier.com/)
+[algont-ier.com](https://algont-ier.com/)
 
 ## Contact
 
