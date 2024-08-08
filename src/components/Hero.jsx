@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col justify-center items-center gap-4 md:gap-8">
+    <div className="px-[5%] flex flex-col justify-center items-center gap-4 md:gap-8">
         <h2 className="text-white text-2xl md:text-4xl font-semibold text-center">
             Je m&apos;appelle <span className="text-violet">Alexis</span>
         </h2>

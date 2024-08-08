@@ -18,12 +18,18 @@ export default function Navbar() {
   ]
 
   return (
-    <header className="z-50 fixed top-0 left-0 w-full p-3 bg-bg-nav backdrop-blur-sm flex justify-around items-center border-b-2 border-border-colors shadow-xl shadow-shadow-nav">
+    <header className="z-50 fixed top-0 left-0 w-full px-[10%] py-2 bg-bg-nav backdrop-blur-sm flex justify-between items-center border-b-2 border-border-colors shadow-xl shadow-shadow-nav">
       <a
         href="/"
-        className="text-white text-2xl font-bold"
+        className="hidden text-white text-normal md:text-2xl font-bold md:block"
       >
         alexisGontier
+      </a>
+      <a
+        href="/"
+        className="text-white text-2xl font-bold md:hidden"
+      >
+        AG
       </a>
 
       <nav className="flex justify-center items-center gap-5">
@@ -31,17 +37,17 @@ export default function Navbar() {
           <a
             key={index}
             href={link.lien}
-            className="text-gray font-medium hover:text-[#8E4EC6] hover:translate-y-[-2px] transition duration-300 ease-out"
+            className="hidden md:block text-gray font-medium hover:text-[#8E4EC6] hover:translate-y-[-2px] transition duration-300 ease-out"
           >
             {link.text}
           </a>
         ))}
-        <div className="w-px h-6 bg-[#B2B3BD]"></div>
+        <div className="w-px h-6 bg-[#B2B3BD] hidden md:block"></div>
         <a
-          href="https://github.com/Alexis-Gontier/Portfolio-v2"
+          href="https://github.com/Alexis-Gontier/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xl hover:bg-[#8040B7]/30 p-2 rounded-full transition duration-300 ease-out"
+          className="text-2xl p-2 hover:bg-[#8040B7]/30 rounded-full transition duration-300 ease-out"
         >
           <FaGithub />
         </a>

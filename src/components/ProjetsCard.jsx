@@ -7,17 +7,17 @@ export default function ProjetCard({ capture, icon, title, date, text, techno, l
 
   return (
     <div className="bg-bg-card p-px border-2 border-border-colors/50 flex flex-col justify-center items-start rounded-2xl group relative shadow-2xl shadow-shadow-nav transition-opacity duration-500 ease-in-out">
-      <div className="relative w-[350px] md:w-[500px] h-auto overflow-hidden rounded-t-xl">
+      <div className="relative w-[325px] md:w-[450px] h-auto overflow-hidden rounded-t-xl">
         <img
           src={capture}
           alt={"capture d'écran de " + title}
           className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
         />
-        <div className="absolute inset-0 p-4 flex flex-col justify-start items-start gap-2 md:gap-4 bg-bg-card text-white text-normal md:text-xl font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <div className="absolute overflow-y-scroll lg:overflow-hidden inset-0 p-4 flex flex-col justify-start items-start gap-2 md:gap-4 bg-bg-card text-white text-normal md:text-xl font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <p>
                 {text}
             </p>
-            <div className="flex justify-start items-start gap-2">
+            <div className="flex flex-wrap justify-start items-start gap-2">
                 {techno.map((tech, index) => (
                     <Tech key={index}>
                         {tech}
@@ -50,7 +50,7 @@ export default function ProjetCard({ capture, icon, title, date, text, techno, l
             </div>
         </div>
       </div>
-      <div className="p-4 flex justify-start items-center gap-4">
+      <div className="p-3 md:p-4 flex justify-start items-center gap-2">
         <img
           src={icon}
           alt={icon}

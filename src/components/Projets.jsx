@@ -7,47 +7,58 @@ export default function Projets() {
 
   const CONTENT = [
     {
-      capture: "/projets/projet-portfolio.png",
-      icon: "/projets/vite-logo.png",
+      capture: "/projets/projet-portfolio.webp",
+      icon: "/projets/logo-vite.webp",
       title: "Portfolio",
       date: "2024",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
-      techno: ["Vite.js", "Tailwind CSS", "Gsap"],
+      techno: ["Vite.js", "React", "Tailwind CSS", "Gsap"],
       liked: true,
       githubLink: "https://github.com/Alexis-Gontier/Portfolio-v2",
       liveLink: "https://algont-ier.com"
     },
     {
-      capture: "/projets/projet-old-portfolio.png",
-      icon: "/projets/html-logo.png",
+      capture: "/projets/projet-old-portfolio.webp",
+      icon: "/projets/logo-html.webp",
       title: "Ancien Portfolio",
       date: "2024",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
       techno: ["HTML", "CSS", "JavaScript"],
       liked: true,
       githubLink: "https://github.com/Alexis-Gontier/old-portfolio",
+      liveLink: "https://alexis-gontier.github.io/MyPortfolio/"
+    },
+    {
+      capture: "/projets/projet-expressway.webp",
+      icon: "/projets/logo-django.webp",
+      title: "ExpressWay",
+      date: "2024",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
+      techno: ["Django", "Sqlite", "HTML", "CSS", "Javascript"],
+      liked: false,
+      githubLink: "https://github.com/Alexis-Gontier/ExpressWay",
       liveLink: ""
     },
     {
-      capture: "/projets/projet-portfolio.png",
-      icon: "/projets/vite-logo.png",
-      title: "Portfolio",
+      capture: "/projets/projet-page-sneakers.webp",
+      icon: "/projets/logo-html.webp",
+      title: "Page Sneakers",
       date: "2024",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
-      techno: ["Vite.js", "Tailwind CSS"],
+      techno: ["HTML", "CSS", "Javascript"],
       liked: false,
-      githubLink: "https://github.com/Alexis-Gontier/portfolio",
-      liveLink: "https://alexis-gontier.com"
+      githubLink: "https://github.com/Alexis-Gontier/Maquette-SKEAKERS",
+      liveLink: ""
     },
     {
-      capture: "/projets/projet-old-portfolio.png",
-      icon: "/projets/html-logo.png",
-      title: "Ancien Portfolio",
+      capture: "/projets/projet-dekuple.webp",
+      icon: "/projets/logo-html.webp",
+      title: "Dashboard Dekuple",
       date: "2024",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
-      techno: ["HTML", "CSS", "JavaScript"],
-      liked: true,
-      githubLink: "https://github.com/Alexis-Gontier/old-portfolio",
+      techno: ["Next.js", "Supabase", "Chart.js"],
+      liked: false,
+      githubLink: "https://github.com/Alexis-Gontier/Maquette-SKEAKERS",
       liveLink: ""
     },
   ];
@@ -58,7 +69,7 @@ export default function Projets() {
 
   return (
     <div className="flex flex-col justify-start items-center gap-16">
-        <div className="flex flex-wrap justify-center items-start gap-10">
+        <div className="flex flex-wrap justify-center items-start gap-8">
             {CONTENT.map((project, index) => (
                 <ProjetsCard
                     key={index}
