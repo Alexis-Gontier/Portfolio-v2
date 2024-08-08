@@ -2,13 +2,18 @@ import { useState } from "react";
 import ProjetsCard from "./ProjetsCard";
 import { GiClick } from "react-icons/gi";
 
+import { RiNextjsFill } from "react-icons/ri";
+import { SiVite, SiDjango } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+
+
 export default function Projets() {
   const [showAllProjects, setShowAllProjects] = useState(false);
 
   const CONTENT = [
     {
       capture: "/projets/projet-portfolio.webp",
-      icon: "/projets/logo-vite.webp",
+      icon: <SiVite />,
       title: "Portfolio",
       date: "2024",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
@@ -18,19 +23,30 @@ export default function Projets() {
       liveLink: "https://algont-ier.com"
     },
     {
+      capture: "/projets/projet-dekuple.webp",
+      icon: <RiNextjsFill />,
+      title: "Dashboard Dekuple",
+      date: "2024",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
+      techno: ["Next.js", "Supabase", "Chart.js"],
+      liked: true,
+      githubLink: "https://github.com/Alexis-Gontier/Maquette-SKEAKERS",
+      liveLink: ""
+    },
+    {
       capture: "/projets/projet-old-portfolio.webp",
-      icon: "/projets/logo-html.webp",
+      icon: <FaHtml5 />,
       title: "Ancien Portfolio",
       date: "2024",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
       techno: ["HTML", "CSS", "JavaScript"],
-      liked: true,
+      liked: false,
       githubLink: "https://github.com/Alexis-Gontier/old-portfolio",
       liveLink: "https://alexis-gontier.github.io/MyPortfolio/"
     },
     {
       capture: "/projets/projet-expressway.webp",
-      icon: "/projets/logo-django.webp",
+      icon: <SiDjango />,
       title: "ExpressWay",
       date: "2024",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
@@ -41,22 +57,11 @@ export default function Projets() {
     },
     {
       capture: "/projets/projet-page-sneakers.webp",
-      icon: "/projets/logo-html.webp",
+      icon: <FaHtml5 />,
       title: "Page Sneakers",
       date: "2024",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
       techno: ["HTML", "CSS", "Javascript"],
-      liked: false,
-      githubLink: "https://github.com/Alexis-Gontier/Maquette-SKEAKERS",
-      liveLink: ""
-    },
-    {
-      capture: "/projets/projet-dekuple.webp",
-      icon: "/projets/logo-html.webp",
-      title: "Dashboard Dekuple",
-      date: "2024",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quae illum asperiores, quis perferendis quidem alias.",
-      techno: ["Next.js", "Supabase", "Chart.js"],
       liked: false,
       githubLink: "https://github.com/Alexis-Gontier/Maquette-SKEAKERS",
       liveLink: ""

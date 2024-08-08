@@ -5,7 +5,7 @@ export default function AboutXp() {
 
     const EXPERIENCES = [
         {
-            year: "07/2024 - 07/2024",
+            year: "06/2024 - 07/2024",
             title: "Développeur Front - TCP Innovation",
             text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores consequatur minima exercitationem dignissimos eum rem doloremque harum perspiciatis ipsam ullam?",
             tech: ["Front-end", "Joomla", "HTML", "CSS"],

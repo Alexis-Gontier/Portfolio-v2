@@ -23,7 +23,7 @@ export default function AboutTechno() {
     <div className="flex flex-col gap-5">
         <h2 className="text-white text-2xl lg:text-4xl font-semibold flex items-center gap-3">
             <BsStack />
-            Techologies préférés
+            Technologies préférés
         </h2>
         <div className="w-20 h-1 bg-white"></div>
 

@@ -51,11 +51,9 @@ export default function ProjetCard({ capture, icon, title, date, text, techno, l
         </div>
       </div>
       <div className="p-3 md:p-4 flex justify-start items-center gap-2">
-        <img
-          src={icon}
-          alt={icon}
-          className="w-10 h-auto"
-        />
+        <p className="text-3xl text-btn-purple">
+          {icon}
+        </p>
         <p className="text-white text-xl md:text-2xl font-semibold">
             {title}
         </p>
