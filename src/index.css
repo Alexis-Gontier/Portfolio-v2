@@ -10,6 +10,6 @@
     }
 
     section {
-        @apply max-w-6xl mx-auto py-20 min-h-screen;
+        @apply max-w-6xl mx-auto py-20 min-h-screen px-marge;
     }
 }
