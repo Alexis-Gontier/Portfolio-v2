@@ -22,6 +22,9 @@ export default {
         'green': '#37744E',
         'banner-purple': '#6D0094',
         'btn-purple': '#8E4EC6',
+      },
+      padding: {
+        'marge': '5%'
       }
     },
   },
