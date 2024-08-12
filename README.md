@@ -1,6 +1,6 @@
 # Mon Portfolio
 
-Bienvenue sur mon portfolio ! Ce projet est développé en utilisant Vite.js, React et Tailwind CSS. Il présente mes compétences, projets et expériences professionnelles.
+Bienvenue sur mon portfolio ! Ce projet est développé en utilisant Vite.js, React Tailwind CSS et Gsap. Il présente mes compétences, projets et expériences professionnelles.
 
 ![capture-portfolio-v2](https://github.com/user-attachments/assets/19f4a43f-dadf-4fdb-963f-e5162c7a1fa4)
 
