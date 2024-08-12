@@ -62,6 +62,7 @@ Ouvrez votre navigateur et accédez à `http://localhost:5173` pour voir le proj
 - **Vite.js** - Outil de build rapide pour le développement front-end moderne.
 - **React** - Bibliothèque JavaScript pour construire des interfaces utilisateur.
 - **Tailwind CSS** - Framework CSS utilitaire pour un design rapide et flexible.
+- **GSAP** - GreenSock Animation Platform, bibliothèque pour créer des animations JavaScript puissantes et performantes.
 
 ## Lien
 
