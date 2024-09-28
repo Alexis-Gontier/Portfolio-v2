@@ -1,8 +1,8 @@
 # Mon Portfolio
 
-Bienvenue sur mon portfolio ! Ce projet est développé en utilisant Vite.js, React et Tailwind CSS. Il présente mes compétences, projets et expériences professionnelles.
+Bienvenue sur mon portfolio ! Ce projet est développé en utilisant Vite.js, React Tailwind CSS et Gsap. Il présente mes compétences, projets et expériences professionnelles.
 
-![image](https://github.com/user-attachments/assets/e9168a14-35f3-4724-a69f-03c78b6aafdf)
+![capture-portfolio-v2](https://github.com/user-attachments/assets/19f4a43f-dadf-4fdb-963f-e5162c7a1fa4)
 
 ## Table des matières
 
@@ -62,6 +62,7 @@ Ouvrez votre navigateur et accédez à `http://localhost:5173` pour voir le proj
 - **Vite.js** - Outil de build rapide pour le développement front-end moderne.
 - **React** - Bibliothèque JavaScript pour construire des interfaces utilisateur.
 - **Tailwind CSS** - Framework CSS utilitaire pour un design rapide et flexible.
+- **GSAP** - GreenSock Animation Platform, bibliothèque pour créer des animations JavaScript puissantes et performantes.
 
 ## Lien
 
