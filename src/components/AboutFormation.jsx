@@ -8,7 +8,22 @@ export default function AboutFormation() {
             year: "2023 - 2026",
             title: "Bachelor Développement Web",
             text: "Formation approfondie en développement web. Cette formation couvre les fondamentaux du développement web, ainsi que des techniques avancées pour créer des applications web modernes et performantes.",
-            tech: ["Dev Front", "Dev Back"],
+            tech: [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "React",
+                "PHP",
+                "POO",
+                "Python",
+                "Django",
+                "SQL",
+                "Node.js",
+                "Express",
+                "API Rest",
+                "Docker",
+                "Figma",
+            ],
         },
     ];
 

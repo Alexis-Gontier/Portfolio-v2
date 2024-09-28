@@ -5,10 +5,16 @@ export default function AboutXp() {
 
     const EXPERIENCES = [
         {
+            year: "09/2024 - Actuellement",
+            title: "Développeur FullStack - Plume",
+            text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores consequatur minima exercitationem dignissimos eum rem doloremque harum perspiciatis ipsam ullam?",
+            tech: ["Drupal", "Twig", "SCSS", "PHP"],
+        },
+        {
             year: "06/2024 - 07/2024",
             title: "Développeur Front - TCP Innovation",
             text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores consequatur minima exercitationem dignissimos eum rem doloremque harum perspiciatis ipsam ullam?",
-            tech: ["Front-end", "Joomla", "HTML", "CSS"],
+            tech: ["Joomla", "HTML", "CSS"],
         },
     ];
 

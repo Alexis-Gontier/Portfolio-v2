@@ -16,7 +16,7 @@ export default function Formation({ year, title, text, tech }) {
             <p className="text-gray text-normal">
                 {text}
             </p>
-            <div className="flex gap-3">
+            <div className="flex flex-wrap gap-3">
                 {tech.map((techItem, index) => (
                     <Tech
                         key={index}

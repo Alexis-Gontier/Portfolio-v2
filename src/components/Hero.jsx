@@ -15,7 +15,7 @@ export default function Hero() {
         <h2 className="text-gray text-normal md:text-xl font-medium text-center">
             Et je suis actuellement à l&apos;école Hetic en Bachelor Développement Web
         </h2>
-        <HeroRecherche isVisible={true}>
+        <HeroRecherche isVisible={false}>
             En recherche d&apos;alternance
         </HeroRecherche>
         <div className="flex justify-center items-center gap-3">
